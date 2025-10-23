@@ -2,7 +2,7 @@ import "../style/item-view.scss";
 import React, { useCallback, useEffect, useState } from "react";
 import Modal from '../components/modal.js';
 import Loading from "./misc/loadingView.js";
-import { TextField } from '../components/formField.js';
+import { TextField } from '../components/FormField.js';
 import { toast } from 'react-toastify';
 import { Country } from "../classes/models/country.js";
 

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SearchBar from "../components/searchBar";
+import SearchBar from "../components/SearchBar";
 import { getAllArticles } from "../services/articleServices";
 import Modal from "../components/modal";
-import { NumberField, SelectField } from "../components/formField";
+import { NumberField, SelectField } from "../components/FormField";
 import { addOrderLine, editOrderLine } from "../services/orderLineServices";
 import { toast } from "react-toastify";
 

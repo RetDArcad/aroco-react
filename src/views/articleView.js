@@ -2,7 +2,7 @@ import "../style/item-view.scss";
 import React, { useCallback, useEffect, useState } from "react";
 import Modal from '../components/modal.js';
 import Loading from "./misc/loadingView.js";
-import { TextField, NumberField, SelectField, TextAreaField } from '../components/formField.js';
+import { TextField, NumberField, SelectField, TextAreaField } from '../components/FormField.js';
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useTransition } from "@react-spring/web";

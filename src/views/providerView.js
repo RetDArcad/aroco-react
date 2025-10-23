@@ -2,7 +2,7 @@ import "../style/item-view.scss";
 import React, { useCallback, useEffect, useState } from "react";
 import Modal from '../components/modal.js';
 import Loading from "./misc/loadingView.js";
-import { TextField, SelectField } from '../components/formField.js';
+import { TextField, SelectField } from '../components/FormField.js';
 import { toast } from 'react-toastify';
 import { Link } from "react-router-dom";
 import { Provider } from "../classes/models/provider.js";

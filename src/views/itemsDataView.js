@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import SearchBar from '../components/searchBar';
-import DataTable from '../components/dataTable.js';
+import SearchBar from '../components/SearchBar';
+import DataTable from '../components/DataTable.js';
 import ModifyArticle from './articleView';
 import ModifyCountry from './countryView';
 import ModifyCustomer from './customerView';
