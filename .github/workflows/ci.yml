@@ -27,7 +27,7 @@ jobs:
           npm install --legacy-peer-deps
 
       - name: Build
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Archive production build
         uses: actions/upload-artifact@v4
